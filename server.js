@@ -17,4 +17,5 @@
      } else {
          notFound(req, res);
      }
+
  }).listen(3000, () => console.log('Server up'));
